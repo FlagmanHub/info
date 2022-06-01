@@ -1,0 +1,918 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+nav 
+
+{
+
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background: rgba(0,0,0,0.05);
+    margin-top: -97rem;
+    backdrop-filter: blur(10px);
+}
+
+  
+label h1
+{
+    position: absolute;
+    font-size: 1.2  em;
+    color: #222;
+    margin-top: 1.2rem;
+    left: 3%;
+}
+
+
+
+
+
+nav ul
+{
+    float: right;
+    margin-right: 40px;
+}
+
+
+nav li 
+{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 85px;
+}
+
+
+nav a 
+{
+    color: #000;
+    font-size: 10px;
+}
+
+
+nav #icon .navbar {
+  position: absolute;
+  display: inline-block;
+  float: right;
+  margin-left: -30px; 
+  margin-top: 0.9rem;      
+}
+
+.bar1, .bar3 {
+  width: 26px;
+  height: 4px;
+  background-color: #222;
+  margin: 5px 0;
+  transition: 0.4s;
+  border-radius: 15px;
+}
+
+
+.bar2 {
+  width: 26px;
+  height: 4px;
+  background-color: #222;
+  margin: 5px 0;
+  transition: 0.4s;
+  border-radius: 15px;
+}
+
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-5px, -9px);
+  transform: rotate(45deg) translate(-5px, -9px);
+}
+
+
+
+
+@media only screen and (max-width: 500px) {
+    nav ul 
+    {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(0,0,0,0.3);
+        top: 60px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+    
+    nav li 
+    {
+        display: block;
+    }
+    
+    nav li a 
+    {
+        font-size: 25px;
+        transition: 0.3s;
+        padding: 3px;
+        color: #fff;
+    }
+    
+    
+    nav li a:hover
+    {
+        color: rgba(255,255,255,0.2);
+        transition: 0.3s;
+    }
+
+    
+    nav #icon
+    {
+        width: 1px;
+        float: right;
+    }
+    
+    nav ul.show
+    {
+        left: 0;
+    }
+
+
+
+.flag 
+{
+    width: 100%;
+    height: 750px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.flag .one
+{
+    position: absolute;
+    font-size: 2em;
+    color: #222;
+    margin-top: 6rem;
+}
+
+
+
+
+.flag .two
+{
+    position: absolute;
+    font-size: 2em;
+    color: #444;
+    margin-top: 8.7rem;
+}
+
+
+
+
+
+.flag .three
+{
+    position: absolute;
+    font-size: 2em;
+    color: #222;
+    margin-top: 11.4rem;
+}
+
+
+
+.flag .box 
+{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background: #777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 14.5rem;
+}
+
+
+
+.flag .box .bax 
+{
+    font-size: 1.8em;
+    color: #fff;
+}
+
+
+
+
+
+.flag .four
+{
+    position: absolute;
+    font-size: 2em;
+    color: #222;
+    margin-top: 18.3rem;
+}
+
+
+
+
+
+.flag img 
+{
+    position: absolute;
+    width: 180px;
+    margin-top: 24.5rem;
+}
+
+
+
+
+.flag a 
+{
+    position: absolute;
+    display: inline-block;
+    padding: 12px 65px;
+    background: orange;
+    color: #fff;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-top: 39rem;
+}
+
+
+
+
+
+
+/*********About**********/
+
+
+.about
+{
+    width: 100%;
+    height: 800px;
+    background: rgba(0,0,0,0.08);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.about h1 
+{
+    position: absolute;
+    font-size: 2em;
+    color: #222;
+    margin-top: 1.5rem;
+}
+
+
+
+
+
+.about .first
+{
+    position: absolute;
+    font-size: 1.7em;
+    color: #444;
+    margin-top: 7rem;
+    border-bottom: 2px solid #444;
+    padding: 3px;
+}
+
+
+
+
+
+
+.about .second
+{
+    position: absolute;
+    font-size: 1.7em;
+    color: #444;
+    margin-top: 10.5rem;
+}
+
+
+
+
+
+.about .abo 
+{
+    position: absolute;
+    width: 280px;
+    height: 200px;
+    border-radius: 5px;
+    background: #444;
+    display: flex;
+    justify-content: center;
+    margin-top: 15rem;
+}
+
+
+
+
+.about .abo p 
+{
+    position: absolute;
+    font-size: 1.1em;
+    color: #fff;
+    padding: 15px;
+}
+
+
+
+
+
+.about .abo h3
+{
+    position: absolute;
+    font-size: 1em;
+    color: #fff;
+    margin-left: 150px;
+    margin-top: 10.5rem;
+}
+
+
+
+
+
+.about img 
+{
+    position: absolute;
+    width: 200px;
+    margin-top: 30rem;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 770px) {
+    nav ul 
+    {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(0,0,0,0.3);
+        top: 60px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+    
+    nav li 
+    {
+        display: block;
+    }
+    
+    nav li a 
+    {
+        font-size: 25px;
+        transition: 0.3s;
+        padding: 3px;
+        color: #fff;
+    }
+    
+    
+    nav li a:hover
+    {
+        color: rgba(255,255,255,0.2);
+        transition: 0.3s;
+    }
+
+    
+    nav #icon
+    {
+        width: 1px;
+        float: right;
+    }
+    
+    nav ul.show
+    {
+        left: 0;
+    }
+
+
+
+.flag 
+{
+    width: 100%;
+    height: 750px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.flag .one
+{
+    position: absolute;
+    font-size: 2em;
+    color: #222;
+    margin-top: 6rem;
+}
+
+
+
+
+.flag .two
+{
+    position: absolute;
+    font-size: 2em;
+    color: #444;
+    margin-top: 8.7rem;
+}
+
+
+
+
+
+.flag .three
+{
+    position: absolute;
+    font-size: 2em;
+    color: #222;
+    margin-top: 11.4rem;
+}
+
+
+
+.flag .box 
+{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background: #777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 14.5rem;
+}
+
+
+
+.flag .box .bax 
+{
+    font-size: 1.8em;
+    color: #fff;
+}
+
+
+
+
+
+.flag .four
+{
+    position: absolute;
+    font-size: 2em;
+    color: #222;
+    margin-top: 18.3rem;
+}
+
+
+
+
+
+.flag img 
+{
+    position: absolute;
+    width: 180px;
+    margin-top: 24.5rem;
+}
+
+
+
+
+.flag a 
+{
+    position: absolute;
+    display: inline-block;
+    padding: 12px 65px;
+    background: orange;
+    color: #fff;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-top: 39rem;
+}
+
+
+
+
+
+/*********About**********/
+
+
+.about
+{
+    width: 100%;
+    height: 800px;
+    background: rgba(0,0,0,0.08);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.about h1 
+{
+    position: absolute;
+    font-size: 2em;
+    color: #222;
+    margin-top: 1.5rem;
+}
+
+
+
+
+
+.about .first
+{
+    position: absolute;
+    font-size: 1.7em;
+    color: #444;
+    margin-top: 7rem;
+    border-bottom: 2px solid #444;
+    padding: 3px;
+}
+
+
+
+
+
+
+.about .second
+{
+    position: absolute;
+    font-size: 1.7em;
+    color: #444;
+    margin-top: 10.5rem;
+}
+
+
+
+
+
+.about .abo 
+{
+    position: absolute;
+    width: 280px;
+    height: 200px;
+    border-radius: 5px;
+    background: #444;
+    display: flex;
+    justify-content: center;
+    margin-top: 15rem;
+}
+
+
+
+
+.about .abo p 
+{
+    position: absolute;
+    font-size: 1.1em;
+    color: #fff;
+    padding: 15px;
+}
+
+
+
+
+
+.about .abo h3
+{
+    position: absolute;
+    font-size: 1em;
+    color: #fff;
+    margin-left: 150px;
+    margin-top: 10.5rem;
+}
+
+
+
+
+
+.about img 
+{
+    position: absolute;
+    width: 200px;
+    margin-top: 30rem;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 2870px) {
+    nav ul 
+    {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #777;
+        top: 60px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+    
+    nav li 
+    {
+        display: block;
+    }
+    
+    nav li a 
+    {
+        font-size: 25px;
+        transition: 0.3s;
+        padding: 3px;
+        color: #fff;
+    }
+    
+    
+    nav li a:hover
+    {
+        color: rgba(255,255,255,0.2);
+        transition: 0.3s;
+    }
+
+    
+    nav #icon
+    {   
+        width: 1px;
+        float: right; 
+    }
+    
+    nav ul.show
+    {
+        left: 0;
+    }
+   
+
+
+
+
+
+.flag 
+{
+    width: 100%;
+    height: 750px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.flag .one
+{
+    position: absolute;
+    font-size: 2em;
+    color: #222;
+    margin-top: 6rem;
+}
+
+
+
+
+.flag .two
+{
+    position: absolute;
+    font-size: 2em;
+    color: #444;
+    margin-top: 8.7rem;
+}
+
+
+
+
+
+.flag .three
+{
+    position: absolute;
+    font-size: 2em;
+    color: #222;
+    margin-top: 11.4rem;
+}
+
+
+
+.flag .box 
+{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background: #777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 14.5rem;
+}
+
+
+
+.flag .box .bax 
+{
+    font-size: 1.8em;
+    color: #fff;
+}
+
+
+
+
+
+.flag .four
+{
+    position: absolute;
+    font-size: 2em;
+    color: #222;
+    margin-top: 18.3rem;
+}
+
+
+
+
+
+.flag img 
+{
+    position: absolute;
+    width: 180px;
+    margin-top: 24.5rem;
+}
+
+
+
+
+.flag a 
+{
+    position: absolute;
+    display: inline-block;
+    padding: 12px 65px;
+    background: orange;
+    color: #fff;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-top: 39rem;
+}
+
+
+
+
+
+
+
+
+/*********About**********/
+
+
+.about
+{
+    width: 100%;
+    height: 800px;
+    background: rgba(0,0,0,0.08);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.about h1 
+{
+    position: absolute;
+    font-size: 2em;
+    color: #222;
+    margin-top: 1.5rem;
+}
+
+
+
+
+
+.about .first
+{
+    position: absolute;
+    font-size: 1.7em;
+    color: #444;
+    margin-top: 7rem;
+    border-bottom: 2px solid #444;
+    padding: 3px;
+}
+
+
+
+
+
+
+.about .second
+{
+    position: absolute;
+    font-size: 1.7em;
+    color: #444;
+    margin-top: 10.5rem;
+}
+
+
+
+
+
+.about .abo 
+{
+    position: absolute;
+    width: 280px;
+    height: 200px;
+    border-radius: 5px;
+    background: #444;
+    display: flex;
+    justify-content: center;
+    margin-top: 15rem;
+}
+
+
+
+
+.about .abo p 
+{
+    position: absolute;
+    font-size: 1.1em;
+    color: #fff;
+    padding: 15px;
+}
+
+
+
+
+
+.about .abo h3
+{
+    position: absolute;
+    font-size: 1em;
+    color: #fff;
+    margin-left: 150px;
+    margin-top: 10.5rem;
+}
+
+
+
+
+
+.about img 
+{
+    position: absolute;
+    width: 200px;
+    margin-top: 30rem;
+}
+
+
+
+
+
+
+
+}
